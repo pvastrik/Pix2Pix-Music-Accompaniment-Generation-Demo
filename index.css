@@ -43,3 +43,15 @@ h2 {
     text-align: center;
 
 }
+
+.row-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 95%;
+}
+
+.row-header > .container {
+    min-width: 30%;
+    text-align: center;
+}
